@@ -9,7 +9,7 @@ const LoginPage: React.FC = () => {
   const handleGoogleLogin = () => {
     const googleClientId =
       "1074212407033-6i7kjpp2npa840ut5irf1ftp73fvfa1i.apps.googleusercontent.com";
-    const redirectUri = "http://localhost:3000/home";
+    const redirectUri = "https://chat-application-gules-xi.vercel.app/home";
     const scope = "email profile";
     const responseType = "token";
     const googleOAuthUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${googleClientId}&redirect_uri=${redirectUri}&response_type=${responseType}&scope=${scope}`;
