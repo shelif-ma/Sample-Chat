@@ -3,52 +3,53 @@ import { Responses } from "../interfaces/chat.interfaces";
 export const responses: Responses = {
   greetings: {
     pattern: /hello|hi|hey/,
-    response: "Hello! How can I assist you today?",
+    response: "Vanakkam! Enna udavi thevapaduthu?",
   },
   help: {
     pattern: /help/,
-    response: "Sure, I’m here to help. What do you need assistance with?",
+    response: "Kandippa, naan inga irukken udavi seiya. Enna udavi venum?",
   },
   gratitude: {
     pattern: /thank you|thanks/,
-    response: "You're welcome! If you need more help, just ask.",
+    response: "Ungalukku nandri! Vera enna venum na sollunga.",
   },
   mood: {
     pattern: /how are you/,
-    response: "I'm just a bot, but I'm doing well. How about you?",
+    response:
+      "Naan oru bot la mairu, aana nalla irukken. Neenga eppadi la irukka?",
   },
   nameQuery: {
     pattern: /what is your name/,
     response:
-      "I'm a chatbot created to assist you. I don't have a name, but you can call me Bot.",
+      "Na chatbot ketiya la, ungalukku udavi cheven. Ennaku peru illai, aana Bot-nu koopidalaam.",
   },
   capabilities: {
     pattern: /what can you do/,
     response:
-      "I can assist with various tasks and answer questions. Just let me know what you need!",
+      "Naan pala vela seiya mudiyum, kelvigalukku oru alavukku badhil chelluven. bathil theriyalana onnaiya oo**ba solluven",
   },
   farewell: {
     pattern: /bye|goodbye/,
-    response: "Goodbye! Have a great day!",
+    response: "Poitu varen la! Nalla iru.",
   },
   joke: {
     pattern: /joke/,
     response:
-      "Why don't scientists trust atoms? Because they make up everything!",
+      "Elu raja kumar uh elu....... ne periya rowdy ah la.....ne onga oorla rowdy na....na enga oorla rowdy la.......poi lorry karan kundi pee ah nakku",
   },
   recommendation: {
     pattern: /recommend/,
     response:
-      "I can suggest various things! What kind of recommendation are you looking for?",
+      "Naan sila vishyangal recommend pannalam! Enna type recommendation venum?",
   },
   weather: {
     pattern: /weather/,
     response:
-      "I can’t check the weather, but you can check a weather website or app for the latest updates.",
+      "Naan weather check panna mudiyadhu la P**da, aana weather website illa app la check panni paarunga.",
   },
   favorite: {
     pattern: /your favorite/,
     response:
-      "I don't have personal preferences, but I'm here to help with whatever you need!",
+      "Enaku personal preferences illai, aana naan inga udavi seiyya ready-a irukken! 👅 ❤️ mamaaaaaa ❤️ 👅",
   },
 };
